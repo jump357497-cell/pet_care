@@ -1,3 +1,5 @@
+import ExpectedVisitTime from "./ExpectedVisitTime";
+
 const navItems = [
   { href: "#services", label: "服务" },
   { href: "#prices", label: "价格" },
@@ -351,6 +353,7 @@ export default function Home() {
                     <span className="text-[#66767b]">{row.value}</span>
                   </div>
                 ))}
+                <ExpectedVisitTime />
               </div>
             </div>
             <div
